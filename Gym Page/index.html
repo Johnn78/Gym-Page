@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+     <html>
+	  <head>
+	  
+		<link href="https://fonts.googleapis.com/css?family=Martel|Permanent+Marker&display=swap" rel="stylesheet">
+
+	      <title> Gym Page </title>		
+
+          <style>
+		  
+				*  {margin  : 0;
+					padding : 0;
+					box-sizing: border-box;}
+		  
+		  
+				.menu li { display: inline-block;
+							 width: 10%;
+							 margin-left: 1.1%;
+							 margin-right: 1.1%;
+							 text-align: center;
+							 border: 2px solid black;
+							 padding-bottom: 7px;
+							 padding-top: 7px;
+							 font-size: 1.3em;
+							 background-image: linear-gradient(to right top, #b3b972, #b5c06f, #b5c66c, #b6cd69, #b5d467, #aada6f, #9edf78, #91e483, #78e79c, #60e9b4, #4be9ca, #40e9de);}
+					
+				
+
+				li a:link {color: white;
+						   text-decoration: none;}
+						   
+				li a:hover {color: #c20000;}
+				
+				li a:active {color: blue;}
+				
+				li a:visited {color: #6c10e7}
+
+				.sign-up li a { color: #f4000f;
+								padding-top: 3px;
+								padding-bottom: 3px;
+								padding-left: 30px;
+								padding-right: 30px;}
+						   
+		  
+				.image {display : flex;       
+						justify-content: center;}
+		  
+				.image img{margin-left: auto;
+						   margin-right: auto;}
+						   
+						   
+				.p1 {font-family: 'Martel', serif;
+					 width: 90%;
+					 margin-left: 5%;
+					 font-size: 1.5em;
+					 text-align: center;
+					 font-weight: bold;}
+					
+				dl {margin-left: 12%;
+					font-family: 'Martel', serif;
+					font-weight: bold;}
+				
+				dt {width: 400px;
+					padding: 10px;
+					margin: 33px;
+					text-align: center;
+					border: 2px solid black;
+					background-image: linear-gradient(to right, #d13859, #e95d3b, #eb8b0a, #d7ba00, #aae721);}
+		 
+				.listpart dt{margin: 37px;}
+	
+				.listes, .goto, .footer {display : flex;       
+										justify-content: center;}
+						
+				h1 {margin-left: 35%;
+					color: red;}
+				
+				h1:hover {color: #3db129;}
+		 
+				.backspace {margin-left: 118px;}
+				
+				.backspace2 {margin-left: 10px;}
+				
+				fieldset {width: 415px;
+						  border: 2px solid transparent;
+						  position: absolute;
+						  left: 75%;
+						  top: 45px;}
+				
+				.mySlides {display:none;}
+				
+				.p2  {font-family: 'Martel', serif;
+					  width: 90%;
+					  margin-left: 5%;
+					  font-size: 1.5em;
+					  text-align: center;
+					  font-weight: bold;}
+					  
+				.text_link {margin-left: -32%;
+							font-size: 0.7em;}
+					  
+					  
+				.exercises a {text-decoration: none;
+						      font-weight: bold;
+						      font-size: 1.5em;
+						      margin-left: 32%;}
+							  
+				.text_link:hover, .exercises a:hover, footer .email a:hover {color: #c20000;}
+				
+				.text_link:active, .exercises a:active, footer .email a:active {color: blue;}
+				
+				.text_link:visited, .exercises a:visited, footer .email a:visited {color: #6c10e7}
+				
+				.svg {filter: invert(61%) sepia(89%) saturate(2958%) hue-rotate(173deg) brightness(92%) contrast(86%);}
+				
+				.svg:hover {filter: invert(31%) sepia(98%) saturate(4768%) hue-rotate(119deg) brightness(101%) contrast(103%);}
+				
+				footer .email {margin-left: 41%;
+							   font-weight: bold;
+						       font-size: 1.5em;}
+				
+				footer .email a {text-decoration: none;}
+				
+		  </style>
+
+		  
+
+      </head>
+		  
+		  <div id="top"></div>
+		  
+          <body style = background-image:url("Images/background_image.jpg");>
+		  
+		  <header><img src="Images/gym_header.jpg"></header>
+		  
+		  <section>
+		  
+		  <div class="login">
+			<form method="post" action="Login/Login.php">
+				<fieldset>
+					<h4><font color="white">Username<span class="backspace"></span></style>Password</font></h4>
+					<input type="text" name="username" value="" required>
+					<span class="backspace2"></span></style>
+					<input type="password" name="password" required>
+					<span class="backspace2"></span></style>
+					<input type="submit" Value="Login" name="login" style= "padding-left:8px; padding-right:8px; position: absolute;left: 92%;top: 18px;" >
+				</fieldset>
+			</form>
+		  </div>
+
+		  <div>
+			<img src="Images/button_background.png" style= "position: absolute;left: 81.4%;top: 8.8%;"> 
+		  </div>
+
+
+		  <div class="sign-up">
+			<ul type = none> 
+				<li><a href="Registration\Registration.php" style= "position: absolute;left: 81.5%;top: 10.5%;"><strong>Register</strong></a></li>
+			</ul>
+		  </div> 
+
+
+		  
+		    <br>
+			<br>
+			
+			<div class="menu">
+				<ul type = none> 
+					<li><a href="#">HOME</a></li> 
+					<li><a href="#">HEADERS</a></li>
+					<li><a href="#">PAGES</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#gallery">GALLERY</a></li>
+					<li><a href="#">SHORTCODES</a></li>
+					<li><a href="#">SHOP</a></li>
+					<li><a href="#">RESERVATION</a></li>
+				</ul>
+			</div>
+			
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<p class="p1">Sometimes, no matter how important your goals are to you, it's a struggle to bring your best effort to your gym session (or work up the motivation to make it happen at all). But whether you're trying to lose weight, train for a race, keep your stress in check, or any of the other worthwhile reasons to make fitness a part of your life, staying consistent is key, even when you really, really, really don't feel like it. When you're struggling to remember why it's worth all the effort, these 14 fitness quotes will give you the push you need. Consider these gems of fitness inspiration the antidote to your temporarily unenthusiastic fitness attitude or save them for any time you need a little extra boost to get you moving, mind, body, and soul.</p>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div class="image">
+				<img src="Images/gym_image_1.jpg">
+				<img src="Images/gym_image_2.png">
+			</div>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			
+			<div id="14_reasons"></div>
+			
+			<h1>!!! 14 REASONS TO NOT GIVE UP ON GYM !!!</h1>
+			
+			<br>
+			<br>
+			
+			<div class="listes">
+			
+			<div>
+				<dl> 
+				<dt>1)  Remember who you're doing it for </dt>
+				<dd>It's Your Workout, Your Time, Your Body, Own It. </dd>
+				<dt>2)  Be proud </dt>
+				<dd>Don't wait until you've reached your goal to be proud of yourself.</dd> 
+				<dd>Be proud of every step you take toward reaching that goal. - unknown </dd>
+				<dt>3)  Consider the possibilities </dt>
+				<dd>When you're at the gym feeling like you'll never be one of those people </dd> 
+				<dd>who look like they've been at it their entire lives, remember that they all started somewhere. </dd>
+				<dt>4)  Make fitness a habit </dt>
+				<dd>Motivation is what gets you started. Habit is what keeps you going. - Jim Ryin </dd>
+				<dt>5)  Keep going </dt>
+				<dd>Never give up on a dream just because of the time it will take to accomplish it.</dd>
+				<dd> The time will pass anyway. - Earl Nightingale. </dd>
+				<dt>6)  Every workout counts </dt>
+				<dd>The only bad workout is the one that didn't happen. - unknown </dd>
+				<dt>7)  Attitude is everything </dt>
+				<dd>Whether you think you can or you think you can't, you're right. - Henry Ford </dd>
+				</dl>
+			</div>
+			
+			<div class="listpart">
+				<dl> 
+					<dt>8) Push yourself </dt>
+					<dd>Challenging yourself every day is one of the most exciting ways to live. </dd>
+					<dt>9) Remember your "why" </dt>
+					<dd>When you feel like quitting, think about why you started. - unknown </dd>
+					<dt>10) Imagine how you'll feel after </dt>
+					<dd>You're only one workout away from a good mood. - unknown </dd>
+					<dt>11) Gym = bae </dt>
+					<dd>I'm obsessed with BAE: Burpees and Endorphins. </dd>
+					<dt>12) Give it your best </dt>
+					<dd>The same voice that says "give up" can also be trained to say "keep going" - unknown </dd>
+					<dt>13) Make the most of your workout </dt>
+					<dd>Walk away from every workout feeling proud, accomplished, and strong as hell. </dd>
+					<dt>14) Give yourself a pep talk </dt>
+					<dd> Three little words: You've Got This. (Now, Get It.)</dd>
+				</dl>
+			</div>
+			
+			
+			</div>	  
+		  
+		  </section>
+		  
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  
+		  <section>
+		  
+		  
+		  
+
+			<div id="gallery">
+			  <img class="mySlides" src="Images/slide1.jpg" style="width:50%;height:50%;margin-left:25%;">
+			  <img class="mySlides" src="Images/slide2.jpg" style="width:50%;height:50%;margin-left:25%;">
+			  <img class="mySlides" src="Images/slide3.jpg" style="width:50%;height:50%;margin-left:25%;">
+			  <img class="mySlides" src="Images/slide4.jpg" style="width:50%;height:50%;margin-left:25%;">
+
+			  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1) ">&#10094;</button>
+			  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+			</div>
+
+			<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  if (n > x.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			}
+			</script>
+	  
+		 
+		 
+		  </section>
+		  
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  
+		  
+		  <section class= "exercises">
+		  
+		  <div id="aerobic">
+			<p class="p2">Aerobic exercise</p>
+			<br>
+			<p class="p2">Aerobic exercises, such as running, swimming or dancing, are activities that work your cardiovascular system — they get your <a href="https://www.livescience.com/42081-normal-heart-rate.html"><span class="text_link">heart rate</span></a> up and make you breathe harder. This type of exercise can reduce the risk of cardiovascular disease, type 2 diabetes and high blood pressure, and may even lower the risk of cancer.</p>
+			<br>
+			<a href="https://www.livescience.com/55320-aerobic-exercise.html">Full story: Here's what you need to know about aerobic exercise</a>
+			
+			<br>
+			<br>
+			<br>
+			
+			
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/fCY6SzJTZPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style = "margin-left:35%"></iframe>
+		  </div>
+		  
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  
+		  <div id="strength">
+			<p class="p2">Strength exercise</p>
+			<br>
+			<p class="p2">Strength exercises, such as weight lifting, push-ups and crunches, work your <a href="https://www.livescience.com/42081-normal-heart-rate.html"><span class="text_link">muscles</span></a> by using resistance (like a dumbbell or your own body weight.) This type of exercise increases lean muscle mass, which is particularly important for weight loss, because lean muscle burns more calories than other types of tissue.</p>
+			<br>
+			<a href="https://www.livescience.com/55324-strength-exercise.html">Full story: Here's what you need to know about strength training</a>
+			
+			<br>
+			<br>
+			<br>
+			
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/6DrOlw2yEHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style = "margin-left:35%"></iframe>
+		  </div>
+		  
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  
+		  <div id="balance">
+			<p class="p2">Balance exercise</p>
+			<br>
+			<p class="p2">Balance exercises improve your ability to control and stabilize your body's position. This type of exercise is particularly important for <a href="https://www.livescience.com/11167-astronauts-elderly-share-balance-issues.html"><span class="text_link">older adults</span></a>, because balance gets worse with age.But balance exercises can be beneficial for everyone, including people who have gained or lost a lot of weight or those who become pregnant, which can throw off your center of gravity, Drew said.</p>
+			<br>
+			<a href="https://www.livescience.com/55321-balance-exercise.html">Full story: Here's what you need to know about balance exercises</a>
+			
+			<br>
+			<br>
+			<br>
+			
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uth_9K3EmDI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style = "margin-left:35%"></iframe>
+		  </div>
+		  
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  
+		  <div id="flexibility">
+			<p class="p2">Flexibility exercise</p>
+			<br>
+			<p class="p2">Flexibility exercises stretch your muscles and may improve your range of motion at your joints. They can improve your flexibility, and reduce your risk of injury during sports and other activities.</p>
+			<br>
+			<a href="https://www.livescience.com/55325-flexibility-exercise.html">Full story: Here's what you need to know about flexibility exercises</a>
+			
+			<br>
+			<br>
+			<br>
+			
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/nFo5dOhlYUw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style = "margin-left:35%"></iframe>
+		  </div>
+		  
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  <br>
+		  
+		  <div id="conclusion">
+			<p class="p2">Putting it all together</p>
+			<br>
+			<p class="p2">Ideally, you should include all four types of exercise in your workouts. But that doesn't mean you have to do four separate workouts, Drew said. You can combine some exercises together, like strength and balance training. For example, you could do bicep curls while standing on one leg. Some workouts, such as yoga, incorporate strength, flexibility and balance exercises.
+
+				A sample workout might include running or walking briskly for 30 minutes on a treadmill for aerobic exercise, then doing strength and balance exercises combined, and finishing by doing some static stretches, Drew said. "Your exercise program should include a bit of all four [types of exercise]," Drew said.</p>
+
+			<p class="p2">Original article on <a href="https://www.livescience.com/55317-exercise-types.html"><span class="text_link">Live Science</span></a>.</p>
+		  </div>
+		  
+	
+		  
+		  
+		<img src="Images/gym.svg" class="svg" width="500" height="500" style = "margin-left:37%;"/>
+		
+		
+		  <div class="goto">
+			<h4 style="color: green;font-weight: bold;">GO TO</h4>
+			<span class="backspace2"></span>
+			<select name="gym_program" size="1" onchange="location = this.value;"> 
+				<option disabled="disabled" selected="selected">Select one option</option>
+				<option value="#top" style='color: red;font-weight: bold;'>TOP</a></option>
+				<option value="#14_reasons" style='color: red;font-weight: bold;'>14 REASONS</a></option>
+				<option value="#gallery" style='color: red;font-weight: bold;'>GALLERY</a></option>
+				<option value="#aerobic" style='color: red;font-weight: bold;'>AEROBIC EXERCISE</a></option>                
+				<option value="#strength" style='color: red;font-weight: bold;'>STRENGTH EXERCISE</option>
+				<option value="#balance" style='color: red;font-weight: bold;'>BALANCE EXERCICE</option>
+				<option value="#flexibility" style='color: red;font-weight: bold;'>FLEXIBILITY EXERCICE</option>
+				<option value="#conclusion" style='color: red;font-weight: bold;'>CONCLUSION</option>
+			</select>
+		  </div>
+		  
+		    
+		  
+		  </section>
+		  
+		  <br>
+		  
+		  <footer>
+			<div class="email">
+				Email to :
+				<a href="mailto:gymcardio@gmail.com?subject=Gym%20Cardio?body=Hello, "> gymcardio@gmail.com </a>
+				</div>
+					<br>
+				<div>
+				<img src="Images/gym_header.jpg">
+			</div>
+		  </footer>	
+		  
+		  
+		  </body>
+		  
+	</html>
